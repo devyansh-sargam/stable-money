@@ -70,12 +70,8 @@ function SideNav() {
         height={100}
         /> */}
       <div className="flex flex-row items-center">
-        <Image src={"./chart-donut.svg"} alt="logo" width={40} height={25} />
-        <span className="text-blue-800 font-bold text-xl">Stable Moneyconsole.log('Rendering SideNav component');
-console.log('Menu list:', menuList);
-console.log('Current path:', path);console.log('Rendering SideNav component');
-console.log('Menu list:', menuList);
-console.log('Current path:', path);</span>
+        <Image src={""} alt="logo" width={40} height={25} />
+        <span className="text-blue-800 font-bold text-xl">Stable Money</span>
       </div>
       <div className="mt-5">
         {menuList.map((menu, index) => (
